@@ -1,6 +1,6 @@
 {
   "name": "prefix-classnames",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "classnames with prefix",
   "main": "lib/index.js",
   "files": [
