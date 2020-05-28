@@ -10,7 +10,7 @@
     "url": "https://github.com/NicoKam/prefix-classnames"
   },
   "scripts": {
-    "compile": "k-tools compile",
+    "compile": "k-tools compile --no-babel-runtime",
     "prepublish": "npm run compile",
     "pub": "npm publish --registry=https://registry.npmjs.org/",
     "test": "jest --runInBand"
