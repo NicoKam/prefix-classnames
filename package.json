@@ -6,6 +6,9 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "url": "https://github.com/NicoKam/prefix-classnames"
+  },
   "scripts": {
     "compile": "k-tools compile",
     "prepublish": "npm run compile",
