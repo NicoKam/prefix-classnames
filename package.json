@@ -1,0 +1,48 @@
+{
+  "name": "prefix-classnames",
+  "version": "0.0.1",
+  "description": "classnames with prefix",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "compile": "k-tools compile",
+    "prepublish": "npm run compile",
+    "pub": "npm publish --registry=https://registry.npmjs.org/",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "class",
+    "classnames",
+    "prefix"
+  ],
+  "author": "NicoKam",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "k-tools": "^0.1.5",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/temp/",
+      "/template/"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/",
+      "/temp/",
+      "/template/"
+    ],
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    }
+  }
+}

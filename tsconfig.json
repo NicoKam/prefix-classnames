@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "declaration": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "removeComments": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "types": [
+      "node",
+      "jest"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "dist",
+    "es",
+    "**/*.spec.ts"
+  ]
+}
