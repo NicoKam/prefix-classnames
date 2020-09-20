@@ -46,7 +46,9 @@ test('test8', () => {
 });
 
 test('test9', () => {
-  expect(px('foo', { bar: true, duck: false }, 'baz', { quux: true })).toBe('prefix-foo prefix-bar prefix-baz prefix-quux');
+  expect(px('foo', { bar: true, duck: false }, 'baz', { quux: true })).toBe(
+    'prefix-foo prefix-bar prefix-baz prefix-quux',
+  );
 });
 
 test('test10', () => {
@@ -54,5 +56,11 @@ test('test10', () => {
 });
 
 test('test11', () => {
+  expect(px(['a', ['b', { c: 1, d: false }, ['e', { f: true }, 'g']]])).toBe(
+    'prefix-a prefix-b prefix-c prefix-e prefix-f prefix-g',
+  );
+});
+
+test('empty args', () => {
   expect(px()).toBe('prefix');
 });

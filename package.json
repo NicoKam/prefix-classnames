@@ -11,7 +11,7 @@
   },
   "scripts": {
     "compile": "k-tools compile --no-babel-runtime",
-    "prepublish": "npm run compile",
+    "prepublishOnly": "npm run compile",
     "pub": "npm publish --registry=https://registry.npmjs.org/",
     "test": "jest --runInBand"
   },
