@@ -12,7 +12,7 @@
   "scripts": {
     "compile": "k-tools compile --no-babel-runtime",
     "prepublishOnly": "npm run compile",
-    "pub": "npm publish --registry=https://registry.npmjs.org/",
+    "pub": "npm publish --registry=https://registry.npmjs.org/ && git push",
     "test": "jest --runInBand"
   },
   "keywords": [
