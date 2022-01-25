@@ -1,6 +1,6 @@
 {
   "name": "prefix-classnames",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "classnames with prefix",
   "module": "esm/index.js",
   "main": "lib/index.js",
