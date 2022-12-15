@@ -4,6 +4,7 @@
   "description": "classnames with prefix",
   "module": "esm/index.js",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "esm"
